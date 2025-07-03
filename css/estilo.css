@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cor1 {
+    background-color: rgb(11, 182, 11);
+    width: 100%;
+    height: 1vh;
+}
+#cor2 {
+    background-color: rgb(255, 238, 3);
+    width: 100%;
+    height: 1vh;
+}
+#banner {
+    background-color: rgb(46, 69, 110);
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+#banner h1 {
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 19px;
+    padding-left: 1px;
+}
+#logo {
+    display: flex;
+    height: 20vh;
+}
+header {
+    display: flex;
+}
+#bloco {
+    display: flex;
+}
+
+#lupa {
+    background-color:rgb(46, 69, 110) ;
+    height: 20vh;
+    padding-top: 10px;
+    padding-right: 30px;
+    display: flex;
+}
+#lupa img {
+    width: 2vw;
+    height: 4vh;
+}
+#lupa h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.658);
+    padding-right: 20px;
+    font-weight: 100;
+    padding-top: 3px;
+}
+#barra {
+    width: 100vw;
+    height: 5vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    display: flex;
+   
+}
+#barra p {
+    padding-left: 10px;
+    padding-right: 10px;
+    align-self: center;
+}
+#p2 {
+    color: rgb(255, 175, 1);
+}
