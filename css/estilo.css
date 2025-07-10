@@ -60,7 +60,7 @@ header {
     height: 5vh;
     border-bottom: 1px solid rgba(0, 0, 0, 0.342);
     display: flex;
-   
+    justify-content: space-around;
 }
 #barra p {
     padding-left: 10px;
@@ -69,4 +69,91 @@ header {
 }
 #p2 {
     color: rgb(255, 175, 1);
+}
+#conteudo {
+    padding-left: 20px;
+    border:  1px solid rgba(0, 0, 0, 0.473);
+    padding-top: 10px;
+}
+#texto1 {
+        width: 800px;
+        padding-right: 10px;
+        color: rgba(0, 0, 0, 0.637);
+}
+#noticia {
+    display: flex;
+    padding-bottom: 20px;
+}
+#conteudo h1 {
+     width: 600px;
+}
+#inicial {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.473);
+    padding-bottom: 20px;
+}
+#rod1 {
+    width: 250px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    padding-top: 10px;
+}
+#banner2 {
+    width: 100%;
+    height: 80px;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.473);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: yellow;
+}
+#conteudo2 {
+    display:flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    border:  1px solid rgba(0, 0, 0, 0.473);
+}
+#div1 {
+    padding-left: 20px;
+}
+#po1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+h4 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#layout {
+    display:flex ;
+    background-color: rgb(255, 255, 255);
+}
+#a1 {
+    background-color: darkgreen;
+    height: 111vh;
+    width: 55vw;
+}
+#nav {
+    background-color: black;
+    height: 10vh;
+    width: 58.566vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav2 {
+    background-color: grey;
+    height: 5vh;
+    width: 58.566vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#l1 {
+    flex-direction: column;
 }
